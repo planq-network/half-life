@@ -1,5 +1,6 @@
 alerts:
-  ignore-alerts: []
+  ignore-alerts:
+    - alertTypeMissedRecentBlocks
 notifications:
   service: discord
   discord:
