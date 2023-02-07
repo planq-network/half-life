@@ -1,11 +1,13 @@
+alerts:
+  ignore-alerts: []
 notifications:
   service: discord
   discord:
     webhook:
-      id: DISCORD_WEBHOOK_ID
+      id: "DISCORD_WEBHOOK_ID"
       token: DISCORD_WEBHOOK_TOKEN
     alert-user-ids:
-      - DISCORD_USER_ID
+      - "DISCORD_USER_ID"
     username: HalfLife
 validators:
 - name: monikername
