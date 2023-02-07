@@ -9,7 +9,7 @@ notifications:
     username: HalfLife
 validators:
 - name: monikername
-  rpc: https://rpc.planq.network:443
+  rpc: tcp://localhost:26657
   fullnode: false
   address: plqvalcons1
   chain-id: planq_7070-2
